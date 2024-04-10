@@ -1,0 +1,117 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #d8a8d8;
+}
+header h1 i {
+    margin-right: 10px; 
+}
+
+header h1 em {
+    padding: 10px 20px; 
+    border-radius: 20px; 
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin: 120px;
+    font-size:25px;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h2 {
+    font-size: 2em;
+}
+
+.middle {
+    position: relative;
+    text-align: center;
+}
+
+.background-image {
+    background-image: url('backgroundImage.jpg'); 
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; 
+    opacity: 0.7; 
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFD700;
+}
+
+.middle h2 {
+    font-size: 2em;
+}
+
+.middle p {
+    margin-bottom: 20px;
+}
+
+.destinations {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.destinations h2 {
+    font-size: 2em;
+}
+
+.destination {
+    margin: 20px;
+}
+
+.destination img {
+    width: 100%;
+    max-width: 300px;
+}
+nav ul li a:hover,
+a.btn:hover {
+    color: #fff; 
+}
+footer {
+    background: #333;
+    color: #d8a8d8;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal portfolio website</title>
+    <link rel="stylesheet" href="style.css" />
+       <script
+      src="https://kit.fontawesome.com/35c398e458.js"
+      rel="stylesheet"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/abilogo.png" class="logo" />
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+             <i class="fas fa-times" ></i>
+          </ul>
+            <i class="fas fa-bars"></i>
+        </nav>
+        <div class="header-text">
+          <p>Front-end Developer</p>
+          <h1>
+            Hi, I'm <span>Bharani</span><br /><span>Selvaraj</span> From Chennai
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- ------------about-------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/photo.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p style="line-height: 1.5;">
+              Hi, I'm Bharani, a front-end developer passionate about crafting
+              stunning web experiences. Proficient in HTML, CSS, JavaScript, and
+              React.js, I thrive on turning design into dynamic websites. Let's
+              create something remarkable together.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Web Development</span></li>    
+                </li>Html5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>ReactJs</li>
+                <li>Angular5</li>
+                <li>Git</li>
+                <li>Github</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li style="line-height: 1.5;"><span>Edyoda Online Course(2023):</span><br>Completed a comprehensive online course on web development covering 
+                  <br>HTML, CSS, JavaScript, React.js, and Angular 5.
+                  <br>Gained proficiency in front-end technologies and best practices.</li>    
+                <li style="line-height: 1.5;"><span>Git and GitHub Basics (Self-Learned):</span><br>Self-learned Git and GitHub basics through online tutorials.
+                <br>Acquired essential version control skills for collaborative coding.</li>
+              </ul>
+            </div>
+             <div class="tab-contents" id="education">
+              <ul>
+                <li style="line-height: 1.5;"><span>2023</span><br>MBA from Sathyabama University Chennai.</li>    
+                <li style="line-height: 1.5;"><span>2021</span><br>B.SC from KCSAM Cuddalore.</li>    
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- --------------------Services---------------->
+    <div id="services">
+      <div class="container">
+         <h1 class="sub-title">My Services</h1>
+         <div class="services-list">
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2 style="line-height: 1.5;">Web Development</h2>
+            <p style="line-height: 1.5;">I like to code things from scratch, and enjoy bringing <br>
+              ideas to life in the browser.</p>
+            <a href="#">Learn more</a>
+          </div>
+           <div>
+             <i class="fa-solid fa-crop-simple"></i>
+            <h2 style="line-height: 1.5;">UI/UX Design</h2>
+            <p style="line-height: 1.5;">I value simple content structure, clean design patterns,<br>
+               and thoughtful interactions.</p>
+            <a href="#">Learn more</a>
+          </div>
+         </div>
+     </div>
+    </div>
+   <!---------------portfolio---------------->
+   <div id="portfolio">
+   <div class="container">
+      <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+         <img src="images/work1.png" > 
+        <div class="layer">
+          <h3>Weather App Clone website</h3>
+          <p>The site offers real-time weather data and responsive design for a seamless user experience,
+             highlighting my ability to create practical and visually appealing web applications.</p>
+             <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+       <div class="work">      
+        <img src="images/work2.png" style="height: 260px;">
+        <div class="layer">
+          <h3>QR code App Clone website</h3>
+          <p>I developed a QR code app clone using HTML, CSS, and JavaScript
+            to provide users with a convenient tool for generating and scanning QR codes. </p>
+             <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+       <div class="work">
+        <img src="images/work5.png" style="height: 260px;">
+         <div class="layer">
+          <h3> Netflix clone website</h3>
+          <p>I designed and developed a Netflix clone website using HTML and CSS.
+            And in this project showcasing my skills in creating visually engaging and responsive user interfaces.</p>
+             <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+      </div>
+      <a href="#" class="btn">See more</a>
+    </div>
+   </div>
+   </div>
+   <!-- ----------------contact---------------------------->
+   <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>s.bharani1211@gmail.com</p>
+          <p><i class="fa-solid fa-square-phone"></i>9025438270</p>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/bharaniselvaraj/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/Bharani-Selvaraj"><i class="fa-brands fa-github"></i></a>
+          </div>
+          <a href="images/BharaniSResume.pdf"  download class="btn btn2">Download CV</a>
+       
+        </div>
+         <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="text" name="Email" placeholder="Your Email" required>
+            <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    </div>
+
+   <script type="text/javascript" src="script.js"></script> 
+   <!-- <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzKUrKMcDkZYmz7-zUxOPlt3dKQwgxhhQAmko7IvnDDx7UQ5RVJWWUCHEnlXRRZAJn_/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script> -->
+  </body>
+</html>
